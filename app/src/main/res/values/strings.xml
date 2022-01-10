@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Prediction Calculator</string>
+    <string name="PersebaranData">Persebaran Data</string>
+    <string name="ChooseCsvFile">Pilih  Dataset</string>
+    <string name="Hitung">Prediksi</string>
+    <string name="MasukanNilaiX">Masukan Nilai X</string>
+    <string name="Result">Hasil</string>
+</resources>
