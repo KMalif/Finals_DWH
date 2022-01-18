@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/drawable/custom_input.xml" value="0.20555555555555555" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1828125" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.1828125" />
       </map>
     </option>
   </component>

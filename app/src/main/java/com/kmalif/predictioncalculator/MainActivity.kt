@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import android.widget.Toast
 import com.jjoe64.graphview.GraphView
 import com.jjoe64.graphview.series.DataPoint
 import com.jjoe64.graphview.series.LineGraphSeries
@@ -111,11 +112,10 @@ class MainActivity : AppCompatActivity() {
         val yInterception = meanY - (slope*meanX)
         val x = binding.EtXvalue.text.toString().toInt()
         val result = slope * x +yInterception
-        println(result)
         binding.TvResult.apply {
             visibility = View.VISIBLE
             text = "Hasil $result"
-        }
+            }
     }
 
     private fun leastSquare(){
